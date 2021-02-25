@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>How to create fade-out effect on page load using javascript</title>
+    <script type="text/javascript">
+        var opacity = 0;
+        var intervalID = 0;
+        window.onload = fadeout;
+        function fadeout() {
+            setInterval(hide, 200);
+        }
+        function hide(element) {
+            // var body = document.getElementById("body");
+            opacity = Number(
+                window.getComputedStyle(element).getPropertyValue("opacity")
+            );
+
+            if (opacity > 0) {
+                opacity = opacity - 0.5;
+                element.style.opacity = opacity;
+            } else {
+                clearInterval(intervalID);
+            }
+        }
+    </script>
+</head>
+
+<body id="body">
+    <br />
+
+    <h1 style="color: green">GeeksForGeeks</h1>
+
+    <b> How to create fade-out effect on page load using javascript </b>
+
+    <p>This page will fade-out after loading</p>
+</body>
+
+</html>

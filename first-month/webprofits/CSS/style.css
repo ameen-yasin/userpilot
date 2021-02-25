@@ -1,0 +1,571 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --primary-color: rgb(234, 70, 72);
+  --dark-color: ##070909;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  /* overflow: hidden; */
+}
+
+h1 {
+  /* font-size: 4em; */
+  /* font-size: 54px; */
+  /* font-weight: 800; */
+  line-height: 1.28em;
+  /* letter-spacing: 0.02em; */
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+
+h3 {
+  font-size: 1em;
+  /* font-weight: 700; */
+  /* line-height: 1em; */
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  /* left: 30px; */
+  margin-top: 30px;
+  /* right: 20; */
+  align-items: center;
+  /* justify-content: space-between; */
+  justify-content: space-between;
+}
+
+.first-section {
+  height: 700px;
+  width: 100%;
+  /* margin: 0 auto; */
+}
+
+.header a img {
+  width: 300px;
+  height: 60px;
+  /* height: 30%; */
+}
+
+.menu {
+  right: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu .menu-side {
+  font-size: 0.8em;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+  /* grid-template-columns: repeat(5, 1fr); */
+  margin-right: 15px;
+  /* justify-content: center; */
+}
+
+/* .menu ul li:not(:last-child) a {
+  text-decoration: none;
+  color: #111;
+  font-size: 1.5em;
+  text-transform: uppercase;
+} */
+
+.header-section {
+  margin-bottom: 37px;
+}
+
+.btn {
+  display: inline-flex;
+  height: 70px;
+
+  padding: 0 16px;
+
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 22px;
+
+  text-transform: uppercase;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #111;
+}
+
+#lets-talk {
+  display: inline-flex;
+  /* height: 70px;
+    width: 200px; */
+
+  color: var(--dark-color);
+  border-color: var(--dark-color);
+  border: solid 2px;
+  height: 70px;
+
+  padding: 0 16px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+}
+
+#lets-talk:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.header-section {
+  position: relative;
+  margin-top: 170px;
+}
+
+.header-section span {
+  color: #ff0000;
+}
+
+.header-section h1 {
+  max-width: 900px;
+  margin-bottom: 30px;
+}
+
+.slideshow-container {
+  height: 700px;
+  background: #111;
+  color: #fff;
+  position: relative;
+
+  /* width: 20px; */
+}
+
+.slideshow-container .outter {
+  border: solid 1px red;
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+.slideshow-container .outter .div-1-top {
+  /* border: solid 1px green; */
+  /* display: grid;
+  grid-template-columns: 1fr, 2fr, 1fr; */
+}
+
+.slideshow-container .outter .div-1-top .content {
+  width: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+
+  /* justify-content: center; */
+  /* border: solid 1px violet; */
+  /* grid-template-columns: 1fr, 2fr, 1fr; */
+}
+
+.slideshow-container .outter .div-1-top .content .arrow {
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.slideshow-container .outter .div-1-top .content .arrow.rotate {
+  transform: rotate(180deg);
+}
+
+.slideshow-container .outter .div-1-top .content .inner-content {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.slideshow-container .outter .div-1-top .content .left-1 {
+  border: solid 1px yellow;
+  /* width: fit-content; */
+  width: 500px;
+}
+
+.slideshow-container .outter .div-1-top .content .left-1 .quote-img {
+  max-width: 150%;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  height: auto;
+}
+
+#quote-img-1 {
+  width: 150px;
+  /* height: 50px; */
+}
+
+.slideshow-container .outter .div-1-top .content .right-1 {
+  border: solid 1px blue;
+  width: 500px;
+}
+
+.slideshow-container .outter .div-1-top .content .right-1 .quote-img-logo {
+  height: 39px;
+  padding-top: 25px;
+}
+
+.letstalk {
+  margin-top: 100px;
+  height: 550px;
+}
+
+.letstalk h2 {
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  height: 200px;
+}
+.footer.contact {
+  background-color: #000;
+  color: #fff;
+}
+
+/* 
+1025px — 1200px: Desktops, large screens
+*/
+@media (min-width: 1208px) {
+}
+
+/* maybe its debrecated */
+@media (max-width: 1200px) /*and (max-width: 1200px) */ {
+  .btn {
+    width: 80px;
+  }
+
+  /* .header-section {
+    height: 80vh;
+  } */
+
+  .menu {
+    right: 30px;
+    position: absolute;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu .menu-side {
+    display: none;
+  }
+  .both-toggle-contact {
+    display: flex;
+    /* align-items: ce  nter; */
+    justify-content: space-between;
+  }
+
+  /* menu */
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  #lets-talk {
+    display: none;
+  }
+  #toggle {
+    display: none;
+  }
+
+  .hide .show-menu {
+    /* color: #fff; */
+  }
+
+  .hide .show-menu {
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  .hide .show-menu li {
+    /* display: inline-block; */
+    display: block;
+    padding: 25px 0;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+  }
+
+  .hide .show-menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* .menu {
+    right: 30px;
+    position: relative;
+  }
+
+  .menu ul li {
+    margin-right: 15px;
+  } */
+
+  /* .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  } */
+
+  #toggle {
+    background-image: url(../images/menu.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    /* padding-left: 5%; */
+    /* color: #111; */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: 30px;
+    height: 72px;
+    width: 32px;
+    right: 30px;
+  }
+  /* .menu .menu-side .show-menu,*/
+  #lets-talk {
+    /* display: none; */
+  }
+
+  .menu .menu-side .show-menu {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .menu .menu-side .show-menu ul {
+    /* background-image: url(../images/menu.png);
+        background-repeat: no-repeat; */
+  }
+
+  .menu .menu-side .show-menu ul li {
+    display: block;
+    text-decoration: none;
+    padding: 0.7rem 2%;
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* margin-right: 15px; */
+    /* justify-content: center; */
+    background-color: #111;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.3) #fff;
+  }
+
+  .menu .menu-side .show-menu ul li a {
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
+}
+
+/* 769px — 1024px: Small screens,laptops */
+@media (max-width: 1023px) {
+}
+/* 
+  481px — 768px: iPads,Tablets 
+  */
+@media (max-width: 768px) {
+  .btn {
+    width: 80px;
+  }
+
+  .menu {
+    right: 30px;
+    position: absolute;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu .menu-side {
+    background-image: url(../images/menu.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    /* color: #111;
+    background-color: rgba(0, 0, 0, 0.2); */
+    background-size: 30px;
+    height: 72px;
+    width: 32px;
+    right: 30px;
+  }
+
+  /* .menu .menu-side .show-menu,*/
+  #lets-talk {
+    display: none;
+  }
+
+  .menu .menu-side .show-menu {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .menu .menu-side .show-menu ul {
+    /* background-image: url(../images/menu.png);
+    background-repeat: no-repeat; */
+  }
+
+  .menu .menu-side .show-menu ul li {
+    display: block;
+    text-decoration: none;
+    padding: 0.7rem 2%;
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* margin-right: 15px; */
+    /* justify-content: center; */
+    background-color: #111;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.3) #fff;
+  }
+
+  .menu .menu-side .show-menu ul li a {
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
+}
+
+/*   
+320px — 480px: Mobile devices 
+ */
+@media (max-width: 480px) {
+  .btn {
+    width: 400px;
+  }
+  .footer {
+  }
+}
+
+/* 
+ 1201px and more —  Extra large screens, TV
+ done
+ i will remove menu icon and 
+  btn in index will be more large in width 
+
+ make text in footer more larger
+ and slidshow more large
+
+ in contact form il will change the view
+ of the content in section and the parrtner is more lager
+ */
+@media (min-width: 1201px) {
+  h1 {
+    font-size: 5em;
+    /* font-size: 54px; */
+    /* font-weight: 800; */
+    line-height: 1.28em;
+    /* letter-spacing: 0.02em; */
+  }
+
+  h2 {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.3em;
+  }
+
+  .slideshow-container {
+    padding: 140px 0 100px;
+  }
+
+  .first-section .header-section,
+  header {
+    padding: 40px;
+  }
+
+  /* .header {
+    padding: 70px 0;
+  } */
+
+  .first-section .header-section {
+    height: 700px;
+    /* left: 300px; */
+    margin: 0 auto;
+    max-width: 1440px;
+    display: block;
+    top: 30%;
+    /* font-size: 20px; */
+  }
+
+  .header,
+  #lets-talk {
+    font-weight: 600;
+  }
+
+  #lets-talk {
+    height: 52px;
+    width: auto;
+    padding: 0 63px;
+  }
+
+  .btn {
+    height: 68px;
+    width: auto;
+    padding: 0 63px;
+    font-weight: 600;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    color: #111;
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
+
+  .menu ul li a:hover {
+    padding-bottom: 10px;
+    border-bottom: solid 0.5px;
+    border-color: #111;
+  }
+
+  .footer .footer-content {
+    display: grid;
+  }
+
+  .footer .footer-content img {
+    display: block;
+  }
+}

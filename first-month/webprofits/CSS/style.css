@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: rgb(234, 70, 72);
-  --dark-color: ##070909;
+  --dark-color: #070909;
 }
 
 * {
@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  /* font-size: 4em; */
+  font-size: 4em;
   /* font-size: 54px; */
   /* font-weight: 800; */
   line-height: 1.28em;
@@ -145,7 +145,7 @@ h3 {
   color: #fff;
 }
 
-.header-section {
+/* .header-section {
   position: relative;
   margin-top: 170px;
 }
@@ -164,38 +164,26 @@ h3 {
   background: #111;
   color: #fff;
   position: relative;
-
-  /* width: 20px; */
 }
-
+    
 .slideshow-container .outter {
   border: solid 1px red;
   position: absolute;
   top: 50%;
   transform: translate(50%, -50%);
-
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
 }
 
 .slideshow-container .outter .div-1-top {
-  /* border: solid 1px green; */
-  /* display: grid;
-  grid-template-columns: 1fr, 2fr, 1fr; */
 }
 
-.slideshow-container .outter .div-1-top .content {
+.slideshow-container-container .outter .div-1-top .content {
   width: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-
-  /* justify-content: center; */
-  /* border: solid 1px violet; */
-  /* grid-template-columns: 1fr, 2fr, 1fr; */
 }
 
-.slideshow-container .outter .div-1-top .content .arrow {
+.slideshow-container-container .outter .div-1-top .content .arrow {
   width: 50px;
   justify-content: center;
   align-items: center;
@@ -215,7 +203,6 @@ h3 {
 
 .slideshow-container .outter .div-1-top .content .left-1 {
   border: solid 1px yellow;
-  /* width: fit-content; */
   width: 500px;
 }
 
@@ -229,7 +216,6 @@ h3 {
 
 #quote-img-1 {
   width: 150px;
-  /* height: 50px; */
 }
 
 .slideshow-container .outter .div-1-top .content .right-1 {
@@ -258,7 +244,7 @@ h3 {
 .footer.contact {
   background-color: #000;
   color: #fff;
-}
+} */
 
 /* 
 1025px — 1200px: Desktops, large screens
@@ -294,20 +280,20 @@ h3 {
   }
 
   /* menu */
-
+  /*
   .overlay {
     height: 100%;
     width: 100%;
-    /* overflow: hidden; */
+    overflow: hidden;
     position: fixed;
     z-index: 1000;
     top: 0;
     left: 0;
-    /* background-color: rgb(0, 0, 0); */
+    background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
-  }
+  } */
 
   #lets-talk {
     display: none;
